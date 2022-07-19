@@ -25,10 +25,11 @@ function solution(nums) {
   return nums ? nums.sort((a, b) => a - b) : [];
 }
 
-function minMax(arr) {
-  let max = Math.max(...arr);
-  let min = Math.min(...arr);
+function minMax(array) {
+  let max = Math.max(...array);
+  let min = Math.min(...array);
   return [min, max];
+  //poggies
 }
 
 //ssssssssssssssssssssss
