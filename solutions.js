@@ -10,6 +10,8 @@ function factorial(n) {
     s *= i;
   }
   //   console.log(s);
+  //   console.log(s);
+  //   console.log(s);
   return s;
 }
 
