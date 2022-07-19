@@ -1,5 +1,5 @@
-const closestMultiple10 = (n) => {
-  return Math.round(n / 10) * 10;
+const closestMultiple10 = (num) => {
+  return Math.round(num / 10) * 10;
 };
 
 function factorial(n) {
@@ -9,7 +9,7 @@ function factorial(n) {
   for (let i = n; i > 1; i--) {
     s *= i;
   }
-  console.log(s);
+  //   console.log(s);
   return s;
 }
 
